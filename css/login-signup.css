@@ -1,0 +1,146 @@
+@import url('./fonts.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./reset.css');
+@import url('./style.css');
+
+input:focus{
+    border: 1px solid #86B7FE;
+}
+
+
+.login,
+.signup{
+    padding: 100px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__content,
+.signup__content{
+    width: 50%;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+    padding: 4%;
+}
+.login__title,
+.signup__title{
+    font-size: 1.75rem;
+}
+.login__inputEmail,
+.signup__inputEmail,
+.login__inputPassword,
+.signup__inputPassword,
+.signup__inputName,
+.signup__inputPasswordConfirmation{    
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    box-shadow: none;
+    height: 50px;
+    padding: 8px 15px;
+    display: block;
+    border: 1px solid #ced4da;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.login__chekbox,
+.signup__chekbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #687188;
+}
+
+.login__chekbox a{
+    color: #687188;
+}
+.login__chekbox--form,
+.signup__chekbox--form{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.login__chekbox--form input,
+.signup__chekbox--form input{
+    accent-color:#FF324D;
+}
+.login__btn,
+.signup__btn{
+    margin: 25px 0;
+    width: 100%;
+    padding: 12px 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.login__or,
+.signup__or{
+    position: relative;
+    text-align: center;
+    display: block;
+    color: #687188;
+    margin:0 0 30px;
+}
+.login__or span,
+.signup__or span{
+    display: inline-block;
+    background-color: #fff;
+    height: 20px;
+    width: 50px;
+}
+.login__or span::before,
+.signup__or span::before{
+    content: "";
+    position: absolute;
+    border: 1px solid #EEEEEE;
+    right: 0;
+    left: 0;
+    top: 5px;
+    z-index: -1;
+}
+
+.login__diffrent-btn,
+.signup__diffrent-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.login__facebook-btn,
+.signup__facebook-btn{
+    background-color: #3b5998;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.login__facebook-btn a,
+.signup__facebook-btn a{
+    color: #fff;
+}
+.login__google-btn,
+.signup__google-btn{
+    background-color: #d85040;
+    padding: 15px 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+.login__google-btn a,
+.signup__google-btn a{
+    color: #fff;
+}
+.login__signup-link,
+.signup__signup-link{
+    text-align: center;
+    margin-top: 40px;
+}
+.login__signup-link,
+.signup__signup-link{
+    color: #687188;
+}

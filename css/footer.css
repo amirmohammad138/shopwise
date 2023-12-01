@@ -1,0 +1,122 @@
+/* -----------footer-------------- */
+.footer {
+    background-color: #202325;
+    position: relative;
+}
+
+.footer-top {
+    width: 100%;
+    padding: 100px 0 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-top-items {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr;
+}
+
+.footer-top-item {
+    padding: 0 12px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-top-item1-logo {
+    margin-bottom: 20px;
+}
+
+.footer-top-item1>span {
+    margin-bottom: 25px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.footer-top-item1-social-items {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    max-width: 200px;
+}
+
+.footer-top-item1-social-items li a i {
+    color: #fff;
+    transition: .4s;
+}
+
+.footer-top-item1-social-items li a:hover i {
+    color: #FF324D;
+}
+
+.footer-top-item-title {
+    margin: 10px 0 25px;
+}
+
+.footer-top-item-title h3 {
+    color: #fff !important;
+}
+
+.footer-top-item-links-items li {
+    padding-bottom: 10px;
+}
+
+.footer-top-item-links-items li a {
+    color: #fff !important;
+    font-size: 14px;
+    transition: .4s;
+}
+
+.footer-top-item-links-items li a:hover {
+    color: #FF324D !important;
+}
+
+.footer-top-item5 {
+    width: auto;
+}
+
+.footer-top-item5-content-items li {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footer-top-item5-content-items li:first-child{
+    line-height: 2;
+}
+
+.footer-top-item5-content-items li i {
+    margin-left: 10px;
+}
+
+.footer-top-item5-content-items li a {
+    color: #fff !important;
+    transition: .4s;
+}
+
+.footer-top-item5-content-items li a:hover {
+    color: #FF324D !important;
+}
+
+/* ----------------footer bottom------------- */
+.footer-bottom {
+    padding: 30px 0;
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-bottom-content-right {
+    color: #fff;
+}
+
+.footer-bottom-content-left ul {
+    display: flex;
+}
+
+.footer-bottom-content-left ul li {
+    margin: 0 5px;
+}

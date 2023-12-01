@@ -1,0 +1,101 @@
+.block {
+    display: block !important;
+  }
+  
+  .imgSVG {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 3px;
+  }
+  
+  .btn-black {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #fff;
+    position: relative;
+    border: 1px solid #333;
+    z-index: 9;
+    transition: 0.4s;
+  }
+  
+  .btn-black::before {
+    transition: 0.4s;
+    content: "";
+    background-color: #333;
+    width: 51%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .btn-black::after {
+    content: "";
+    background-color: #333;
+    width: 51%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.4s;
+    z-index: -1;
+  }
+  
+  .btn-black:hover {
+    color: #333;
+  }
+  
+  .btn-black:hover::before,
+  .btn-black:hover::after,
+  .btn-oreng:hover::before,
+  .btn-oreng:hover::after {
+    width: 0;
+  }
+  
+  .btn-oreng {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #fff;
+    position: relative;
+    border: 1px solid #ff324d;
+    z-index: 9;
+    transition: 0.4s;
+  }
+  
+  .btn-oreng::before {
+    transition: 0.4s;
+    content: "";
+    background-color: #ff324d;
+    width: 51%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .btn-oreng::after {
+    content: "";
+    background-color: #ff324d;
+    width: 51%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.4s;
+    z-index: -1;
+  }
+  
+  .btn-oreng:hover {
+    color: #ff324d;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .show {
+    display: block !important;
+  }

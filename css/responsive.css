@@ -1,0 +1,201 @@
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* ---------------------------------------------- */
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+
+    /* ------------header bottom---------------*/
+    .header-bottom-left-menu-container {
+        display: none;
+    }
+
+    .header-bottom-left-btns-menu {
+        display: block;
+    }
+
+    /* ---------------main section1-------------- */
+    .main-section1-right,
+    .main-section1-left {
+        column-gap: 20px;
+    }
+
+    .main-section1-right img,
+    .main-section1-left img {
+        height: 200px;
+    }
+
+    .main-section1-left-content h2,
+    .main-section1-right-content h2 {
+        font-size: 25px !important;
+    }
+
+    .main-section1-left-content h5,
+    .main-section1-right-content h5 {
+        font-size: 18px;
+    }
+
+    /* ----------main section2--------------------- */
+    .main-section2-content-bottom-shop {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* ----------main section6--------------------- */
+    .main-section6-content {
+        flex-wrap: wrap;
+    }
+
+    /* ----------footer top--------------------- */
+    .footer-top-items {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* ------------header top---------------*/
+    .header-top .container {
+        flex-direction: column;
+    }
+
+    .header-top-right,
+    .header-top-left {
+        justify-content: center !important;
+    }
+
+    .header-top-left-list {
+        text-align: center;
+    }
+
+    /* ------------header slider---------------*/
+    .header-slider {
+        height: 400px;
+    }
+
+    /* ------------main section2---------------*/
+    .main-section2-content-bottom-shop {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ------------main section1---------------*/
+    .main-section1 .container {
+        flex-wrap: wrap;
+    }
+
+    .main-section1-right,
+    .main-section1-left {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    /* ------------main section7---------------*/
+    .main-section7-content {
+        align-items: stretch;
+        text-align: center;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .main-section7-content-right,
+    .main-section7-content-left {
+        width: 100%;
+    }
+
+    /* ------------footer bottom---------------*/
+    .footer-bottom-content{
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    /* -------------login content---------------- */
+    .login__content,
+    .signup__content{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    /* ------------header top---------------*/
+    .header-top .container {
+        flex-direction: column;
+    }
+
+    .header-bottom-left-btns-shopping-cart {
+        min-width: 230px;
+    }
+
+    .header-bottom-left-btns-searchBox-page {
+        position: absolute;
+        padding: 0 25px;
+        height: 100vh;
+    }
+
+    /* ------------header slider---------------*/
+    .header-slider-item-left {
+        display: none;
+    }
+
+    .header-slider-item-right-content {
+        text-align: center;
+    }
+
+    .header-slider-item-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* ------------main section2---------------*/
+    .main-section2-content-bottom-shop {
+        grid-template-columns: 1fr;
+    }
+    
+    .main-section2-content-bottom-shop {
+        margin: 40px;
+    }
+    /* ------------main section2---------------*/
+    .main-section3-contetn-right {
+        display: none;
+    }
+
+    .main-section3-contetn-left {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* ---------------btn shopping------------ */
+    .cart-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /* ------------footer top---------------*/
+    .footer-top-items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
